@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	
+	<!--
+	 Created by XML Export feature at MyAnimeList.net
+	 Version 1.1.0
+	-->
+	
+	<myanimelist>
+	
+		<myinfo>
+			<user_id>7702594</user_id>
+			<user_name>vazae</user_name>
+			<user_export_type>2</user_export_type>
+			<user_total_manga>31</user_total_manga>
+			<user_total_reading>2</user_total_reading>
+			<user_total_completed>3</user_total_completed>
+			<user_total_onhold>0</user_total_onhold>
+			<user_total_dropped>0</user_total_dropped>
+			<user_total_plantoread>26</user_total_plantoread>
+		</myinfo>
+	
+	
+				<manga>
+					<manga_mangadb_id>112115</manga_mangadb_id>
+					<manga_title><![CDATA[Act-age]]></manga_title>
+					<manga_volumes>12</manga_volumes>
+					<manga_chapters>123</manga_chapters>
+					<my_id>91483039</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>2</manga_mangadb_id>
+					<manga_title><![CDATA[Berserk]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>74626702</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>107931</manga_mangadb_id>
+					<manga_title><![CDATA[Blue Period]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>80085991</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>94175</manga_mangadb_id>
+					<manga_title><![CDATA[Boukyaku Tantei Series]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>97926847</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>120467</manga_mangadb_id>
+					<manga_title><![CDATA[Fermat no Ryouri]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>93870627</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[vishal, math]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>35243</manga_mangadb_id>
+					<manga_title><![CDATA[Haikyuu!!]]></manga_title>
+					<manga_volumes>45</manga_volumes>
+					<manga_chapters>407</manga_chapters>
+					<my_id>84307610</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>116766</manga_mangadb_id>
+					<manga_title><![CDATA[Hige wo Soru. Soshite Joshikousei wo Hirou.]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>81812075</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>42451</manga_mangadb_id>
+					<manga_title><![CDATA[Horimiya]]></manga_title>
+					<manga_volumes>16</manga_volumes>
+					<manga_chapters>125</manga_chapters>
+					<my_id>77562648</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>58313</manga_mangadb_id>
+					<manga_title><![CDATA[ib: Instant Bullet]]></manga_title>
+					<manga_volumes>5</manga_volumes>
+					<manga_chapters>27</manga_chapters>
+					<my_id>74987127</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>110737</manga_mangadb_id>
+					<manga_title><![CDATA[Ijiranaide, Nagatoro-san]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>76081447</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>111587</manga_mangadb_id>
+					<manga_title><![CDATA[Jaku-Chara Tomozaki-kun Comic]]></manga_title>
+					<manga_volumes>6</manga_volumes>
+					<manga_chapters>30</manga_chapters>
+					<my_id>74580079</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>13001</manga_mangadb_id>
+					<manga_title><![CDATA[K-On!]]></manga_title>
+					<manga_volumes>4</manga_volumes>
+					<manga_chapters>57</manga_chapters>
+					<my_id>123717735</my_id>
+					<my_read_volumes>4</my_read_volumes>
+					<my_read_chapters>57</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>9</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Completed</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>99007</manga_mangadb_id>
+					<manga_title><![CDATA[Komi-san wa, Comyushou desu.]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>74192649</my_id>
+					<my_read_volumes>12</my_read_volumes>
+					<my_read_chapters>198</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>8</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>97722</manga_mangadb_id>
+					<manga_title><![CDATA[Kono Subarashii Sekai ni Bakuen wo!]]></manga_title>
+					<manga_volumes>5</manga_volumes>
+					<manga_chapters>21</manga_chapters>
+					<my_id>73862976</my_id>
+					<my_read_volumes>5</my_read_volumes>
+					<my_read_chapters>21</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>8</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Completed</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>60553</manga_mangadb_id>
+					<manga_title><![CDATA[Kono Subarashii Sekai ni Shukufuku wo!]]></manga_title>
+					<manga_volumes>17</manga_volumes>
+					<manga_chapters>127</manga_chapters>
+					<my_id>79256131</my_id>
+					<my_read_volumes>6</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>9</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Reading</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>97579</manga_mangadb_id>
+					<manga_title><![CDATA[Koushaku Reijou no Tashinami]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>74930426</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>122448</manga_mangadb_id>
+					<manga_title><![CDATA[Kubo-san wa Mob wo Yurusanai]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>94641064</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>95012</manga_mangadb_id>
+					<manga_title><![CDATA[Kumo desu ga, Nani ka?]]></manga_title>
+					<manga_volumes>16</manga_volumes>
+					<manga_chapters>384</manga_chapters>
+					<my_id>76062854</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>1649</manga_mangadb_id>
+					<manga_title><![CDATA[Liar Game]]></manga_title>
+					<manga_volumes>19</manga_volumes>
+					<manga_chapters>203</manga_chapters>
+					<my_id>73862999</my_id>
+					<my_read_volumes>19</my_read_volumes>
+					<my_read_chapters>203</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>7</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Completed</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>31499</manga_mangadb_id>
+					<manga_title><![CDATA[Nisekoi]]></manga_title>
+					<manga_volumes>25</manga_volumes>
+					<manga_chapters>229</manga_chapters>
+					<my_id>104618722</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>4632</manga_mangadb_id>
+					<manga_title><![CDATA[Oyasumi Punpun]]></manga_title>
+					<manga_volumes>13</manga_volumes>
+					<manga_chapters>147</manga_chapters>
+					<my_id>74366568</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>5461</manga_mangadb_id>
+					<manga_title><![CDATA[Serial Experiments Lain: The Nightmare of Fabrication]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>1</manga_chapters>
+					<my_id>78711718</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>72467</manga_mangadb_id>
+					<manga_title><![CDATA[Shoujo Shuumatsu Ryokou]]></manga_title>
+					<manga_volumes>6</manga_volumes>
+					<manga_chapters>47</manga_chapters>
+					<my_id>101583490</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>119363</manga_mangadb_id>
+					<manga_title><![CDATA[Shounen, Chotto Sabotteko?]]></manga_title>
+					<manga_volumes>4</manga_volumes>
+					<manga_chapters>39</manga_chapters>
+					<my_id>79917239</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>121496</manga_mangadb_id>
+					<manga_title><![CDATA[Solo Leveling]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>180</manga_chapters>
+					<my_id>90990398</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>130246</manga_mangadb_id>
+					<manga_title><![CDATA[Suugaku Golden]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>102550175</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[vishal, math]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>59893</manga_mangadb_id>
+					<manga_title><![CDATA[Tanaka-kun wa Itsumo Kedaruge]]></manga_title>
+					<manga_volumes>13</manga_volumes>
+					<manga_chapters>145</manga_chapters>
+					<my_id>89874930</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>112589</manga_mangadb_id>
+					<manga_title><![CDATA[Tonikaku Kawaii]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>79655666</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>114043</manga_mangadb_id>
+					<manga_title><![CDATA[Umarekawattemo Mata, Watashi to Kekkon shitekuremasu ka]]></manga_title>
+					<manga_volumes>4</manga_volumes>
+					<manga_chapters>26</manga_chapters>
+					<my_id>94682826</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>18939</manga_mangadb_id>
+					<manga_title><![CDATA[Yasashii Sekai no Tsukurikata]]></manga_title>
+					<manga_volumes>6</manga_volumes>
+					<manga_chapters>37</manga_chapters>
+					<my_id>79728434</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[vishal, math]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+				<manga>
+					<manga_mangadb_id>104</manga_mangadb_id>
+					<manga_title><![CDATA[Yotsuba to!]]></manga_title>
+					<manga_volumes>0</manga_volumes>
+					<manga_chapters>0</manga_chapters>
+					<my_id>90473426</my_id>
+					<my_read_volumes>0</my_read_volumes>
+					<my_read_chapters>0</my_read_chapters>
+					<my_start_date>0000-00-00</my_start_date>
+					<my_finish_date>0000-00-00</my_finish_date>
+					<my_scanalation_group><![CDATA[]]></my_scanalation_group>
+					<my_score>0</my_score>
+					<my_storage></my_storage>
+					<my_retail_volumes>0</my_retail_volumes>
+					<my_status>Plan to Read</my_status>
+					<my_comments><![CDATA[]]></my_comments>
+					<my_times_read>0</my_times_read>
+					<my_tags><![CDATA[4chan]]></my_tags>
+					<my_priority>Low</my_priority>
+					<my_reread_value></my_reread_value>
+					<my_rereading>NO</my_rereading>
+					<my_discuss>YES</my_discuss>
+					<my_sns>default</my_sns>
+					<update_on_import>0</update_on_import>
+				</manga>
+			
+		</myanimelist>
+		

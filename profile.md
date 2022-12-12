@@ -72,7 +72,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 \begin{columns}
 \begin{column}{left bottom-margin}{45%}
 
-### Anime (9)
+### Anime
 
 <!-- manually break newlines to hint to css what the width is -->
 @@favorites
@@ -107,7 +107,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 \end{column}
 \begin{column}{right no-margin}{45%}
 
-### Characters (9)
+### Characters
 
 @@favorites
 \figanime{Oikura Sodachi}{character/293644.webp}{

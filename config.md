@@ -24,7 +24,7 @@ generate_rss = false
 # website_title = "anime"
 # website_descr = "animelist"
 website_url   = "https://stephen-huan.github.io/"
-prepath = "anime"
+# prepath = "anime"
 
 # character for the icon
 icon = "浣"

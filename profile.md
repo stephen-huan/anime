@@ -11,7 +11,9 @@ title = "anime profile"
 
 ### Anime stats
 
+@@bottom-margin
 Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
+@@
 
 @@stats-graph
 <!-- one line to remove spaces: https://stackoverflow.com/questions/441279/ -->
@@ -52,7 +54,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 \end{columns}
 \end{column}
 \begin{column}{outer right no-margin}{45%}
-@@img-full,nonumber,centering
+@@img-full,nonumber,centering,bottom-margin
 \begin{figure}
 ![scores.png](/assets/scores.png)
 \caption{

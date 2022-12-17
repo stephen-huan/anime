@@ -26,9 +26,6 @@ generate_rss = false
 website_url   = "https://stephen-huan.github.io/"
 # prepath = "anime"
 
-# character for the icon
-icon = "浣"
-
 # header structure (url, display name)
 headers = [("/", "index"),
            ("/profile/", "profile"),
@@ -39,6 +36,7 @@ headers = [("/", "index"),
 <!--
 Add here global LaTeX commands to use throughout your pages.
 -->
+\newcommand{\newline}{~~~<br>~~~} <!-- avoid self-closing tag <br/> -->
 \newcommand{\circle}[1]{~~~<span class="circle #1"></span>~~~}
 \newcommand{\figanime}[3]{
   \begin{wrap}{a href="!#3"}

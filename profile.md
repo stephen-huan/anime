@@ -79,28 +79,32 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 \figanime{K-On!!}{anime/76121.webp}{
   https://myanimelist.net/anime/7791/K-On
 }
-\figanime{Shoujo \\ Shuumatsu \\ Ryokou}{anime/88321.webp}{
+\figanime{Shoujo \newline Shuumatsu \newline Ryokou}{anime/88321.webp}{
   https://myanimelist.net/anime/35838/Shoujo_Shuumatsu_Ryokou/
 }
 \figanime{Non Non Biyori}{anime/51581.webp}{
   https://myanimelist.net/anime/17549/Non_Non_Biyori
 }
-\figanime{Gochuumon wa \\ Usagi desu ka?}{anime/79600.webp}{
+\figanime{Gochuumon wa \newline Usagi desu ka?}{anime/79600.webp}{
   https://myanimelist.net/anime/21273/Gochuumon_wa_Usagi_desu_ka
 }
-\figanime{Yojouhan Shinwa \\ Taikei}{anime/123689.webp}{
+\figanime{Yojouhan Shinwa \newline Taikei}{anime/123689.webp}{
   https://myanimelist.net/anime/7785/Yojouhan_Shinwa_Taikei
 }
-\figanime{Monogatari \\ Series: Second \\ Season}{anime/121534.webp}{
+\figanime{
+  Monogatari \newline Series: Second \newline Season
+}{anime/121534.webp}{
   https://myanimelist.net/anime/17074/Monogatari_Series__Second_Season
 }
-\figanime{Kono Subarashii \\ Sekai ni \\ Shukufuku wo!}{anime/77831.webp}{
+\figanime{
+  Kono Subarashii \newline Sekai ni \newline Shukufuku wo!
+}{anime/77831.webp}{
   https://myanimelist.net/anime/30831/Kono_Subarashii_Sekai_ni_Shukufuku_wo
 }
 \figanime{Steins;Gate}{anime/127974.webp}{
   https://myanimelist.net/anime/9253/Steins_Gate
 }
-\figanime{Mahou Shoujo \\ Madoka★Magica}{anime/55225.webp}{
+\figanime{Mahou Shoujo \newline Madoka★Magica}{anime/55225.webp}{
   https://myanimelist.net/anime/9756/Mahou_Shoujo_Madoka%E2%98%85Magica
 }
 @@

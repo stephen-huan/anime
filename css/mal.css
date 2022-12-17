@@ -103,7 +103,7 @@ figure { margin: 0 }
 .animelist th.status { border-right-style: none; }
 .animelist th.number { border-left-style: none; }
 
-.animelist .status   { width: 0.25rem; padding: 0; }
+.animelist .status   { min-width: 0.25rem; padding: 0; }
 .animelist .number   { text-align: right;  }
 .animelist .title    { text-align: left;   }
 .animelist .score    { text-align: center; }

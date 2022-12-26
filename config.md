@@ -31,6 +31,14 @@ headers = [("/", "index"),
            ("/profile/", "profile"),
            ("/animelist/", "animelist"),
           ]
+
+# git repo for page source
+git_repo = "https://github.com/stephen-huan/anime/blob/master"
+
+# footer exclude
+footer_exclude = Set(
+  []
+)
 +++
 
 <!--

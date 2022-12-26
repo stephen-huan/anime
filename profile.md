@@ -56,7 +56,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 \begin{column}{outer right no-margin}{45%}
 @@img-full,nonumber,centering,bottom-margin
 \begin{figure}
-![scores.png](/assets/scores.png)
+\includegraphics{Anime score distribution}{/assets/scores.png}{583}{492}
 \caption{
   $ \mu $: {{score_mean 3}},
   $ \sigma^2 $: {{score_var 3}},
@@ -67,7 +67,9 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 \end{column}
 \end{columns}
 
-\figalt{Anime viewing frequency heatmap}{/assets/heatmap.png}
+\includegraphics{Anime viewing frequency heatmap}{
+  /assets/heatmap.png
+}{790}{553}
 
 ## Favorites
 

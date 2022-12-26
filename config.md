@@ -46,18 +46,16 @@ Add here global LaTeX commands to use throughout your pages.
 -->
 \newcommand{\newline}{~~~<br>~~~} <!-- avoid self-closing tag <br/> -->
 \newcommand{\circle}[1]{~~~<span class="circle #1"></span>~~~}
+<!-- images -->
+\newenvironment{figure}{\begin{wrap}{figure}}{\end{wrap}}
+\newcommand{\includegraphics}[4]{
+  ~~~<img alt="!#1" src="!#2" width="!#3" height="!#4">~~~
+}
+\newcommand{\caption}[1]{\begin{wrap}{figcaption}#1\end{wrap}}
 \newcommand{\figanime}[3]{
   \begin{wrap}{a href="!#3"}
     \begin{wrap}{span class="anime-title"}#1\end{wrap}
-    \figalt{#1}{/assets/favorites/!#2}
-  \end{wrap}
-}
-<!-- images -->
-\newenvironment{figure}{\begin{wrap}{figure}}{\end{wrap}}
-\newcommand{\caption}[1]{\begin{wrap}{figcaption}#1\end{wrap}}
-\newcommand{\figpreview}[3]{
-  \begin{wrap}{a href="!#3"}
-    \figalt{#1}{#2}
+    \includegraphics{#1}{/assets/favorites/!#2}{100}{150}
   \end{wrap}
 }
 <!-- columns -->

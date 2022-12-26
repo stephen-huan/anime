@@ -74,7 +74,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 ## Favorites
 
 \begin{columns}
-\begin{column}{left bottom-margin}{45%}
+\begin{column}{grid left bottom-margin}{45%}
 
 ### Anime
 
@@ -113,7 +113,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 }
 @@
 \end{column}
-\begin{column}{right no-margin}{45%}
+\begin{column}{grid right no-margin}{45%}
 
 ### Characters
 

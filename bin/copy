@@ -24,6 +24,7 @@ copy "_layout/head_katex.html"
 # copy "_layout/header.html"
 touch "_layout/header.html"
 copy "_layout/page_foot.html"
+copy "_layout/tag.html"
 
 copy "404.md"
 copy "Project.toml"

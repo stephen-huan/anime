@@ -16,18 +16,19 @@ ignore = ["Project.toml", "Manifest.toml",
           "bin/",
          ]
 
-generate_sitemap = false
-generate_robots = false
-generate_rss = false
-
 # RSS (the website_{title, descr, url} must be defined to get RSS)
-# website_title = "anime"
-# website_descr = "animelist"
-website_url   = "https://stephen-huan.github.io/"
+generate_rss = true
+website_title = "anime"
+website_descr = "Miscellaneous thoughts on anime"
+website_url   = "https://anime.cgdct.moe/"
 # prepath = "anime"
+
+# doesn't seem to have a default value for tag pages
+div_content = "franklin-content"
 
 # header structure (url, display name)
 headers = [("/", "index"),
+           ("/blog/", "blog"),
            ("/profile/", "profile"),
            ("/animelist/", "animelist"),
           ]
@@ -37,14 +38,17 @@ git_repo = "https://github.com/stephen-huan/anime/blob/master"
 
 # footer exclude
 footer_exclude = Set(
-  []
+  ["/404/", "/blog/"]
 )
 +++
 
 <!--
 Add here global LaTeX commands to use throughout your pages.
 -->
+<!-- text formatting -->
 \newcommand{\newline}{~~~<br>~~~} <!-- avoid self-closing tag <br/> -->
+\newcommand{\chapter      }[1]{\begin{wrap}{h1}#1\end{wrap}}
+\newcommand{\section      }[1]{\begin{wrap}{h2}#1\end{wrap}}
 \newcommand{\circle}[1]{~~~<span class="circle #1"></span>~~~}
 <!-- images -->
 \newenvironment{figure}{\begin{wrap}{figure}}{\end{wrap}}

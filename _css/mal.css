@@ -14,21 +14,21 @@
   display: inline-block;
 }
 
-.watching      {background-color: var(--mal-green-color)}
-.completed     {background-color: var(--mal-blue-color)}
-.on_hold       {background-color: var(--mal-yellow-color)}
-.dropped       {background-color: var(--mal-red-color)}
-.plan_to_watch {background-color: var(--mal-grey-color)}
+.watching      {background-color: var(--mal-green-color);  }
+.completed     {background-color: var(--mal-blue-color);   }
+.on_hold       {background-color: var(--mal-yellow-color); }
+.dropped       {background-color: var(--mal-red-color);    }
+.plan_to_watch {background-color: var(--mal-grey-color);   }
 
 /* ==================================================================
     STATISTICS GRAPH
 ================================================================== */
 
-.stats-graph span {display: inline-block; height: var(--font-size-normal);}
+.stats-graph span { display: inline-block; height: var(--font-size-normal); }
 
-.clean-table table { margin-bottom: 0 }
+.clean-table table { margin-bottom: 0; }
 
-figure { margin: 0 }
+figure { margin: 0; }
 
 .franklin-content .img-full img {
   width: 100%;

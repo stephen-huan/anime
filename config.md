@@ -50,6 +50,7 @@ Add here global LaTeX commands to use throughout your pages.
 \newcommand{\chapter      }[1]{\begin{wrap}{h1}#1\end{wrap}}
 \newcommand{\section      }[1]{\begin{wrap}{h2}#1\end{wrap}}
 \newcommand{\circle}[1]{~~~<span class="circle #1"></span>~~~}
+\newcommand{\space    }{~~~<span id="space">&nbsp;</span>~~~}
 <!-- images -->
 \newenvironment{figure}{\begin{wrap}{figure}}{\end{wrap}}
 \newcommand{\includegraphics}[4]{
@@ -69,7 +70,7 @@ Add here global LaTeX commands to use throughout your pages.
   ~~~<div style="clear: both"></div>~~~\end{wrap}
 }
 \newenvironment{column}[2]{
-  \begin{wrap}{div class="#1" style="width: #2;"}
+  \begin{wrap}{div class="column #1" style="width: #2;"}
 }{
   \end{wrap}
 }

@@ -37,9 +37,13 @@ figure { margin: 0; }
   text-align: center;
 }
 
+#space { display: none; }
+@media (max-width: 480px) { #space { display: unset; } }
+
 @media (max-width: 940px) {
   .franklin-content div.outer  { width: 100% !important; }
-  .franklin-content div.grid   { clear: both; float: left; }
+  .franklin-content div.column { clear: both; float: left; text-align: left; }
+  .franklin-content .pad-left  { margin-left: 2rem; }
 }
 
 /* ==================================================================

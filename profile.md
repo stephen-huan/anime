@@ -30,20 +30,20 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 \begin{column}{inner left}{52%}
 
 @@clean-table,no-header,left
-| legend                 | status        | number                |
-|:-----------------------|--------------:|-----------------------|
-| \circle{watching}      | Watching      | {{total_watching}}    |
-| \circle{completed}     | Completed     | {{total_completed}}   |
-| \circle{on_hold}       | On-hold       | {{total_onhold}}      |
-| \circle{dropped}       | Dropped       | {{total_dropped}}     |
-| \circle{plan_to_watch} | Plan to watch | {{total_plantowatch}} |
+| legend                 | status        | number                      |
+|:-----------------------|:--------------|-----------------------------|
+| \circle{watching}      | Watching      |       {{total_watching}}    |
+| \circle{completed}     | Completed     |       {{total_completed}}   |
+| \circle{on_hold}       | On-hold       |       {{total_onhold}}      |
+| \circle{dropped}       | Dropped       |       {{total_dropped}}     |
+| \circle{plan_to_watch} | Plan to watch | \space{{total_plantowatch}} |
 @@
 
 \end{column}
 
 \begin{column}{inner right no-margin}{44%}
 
-@@clean-table,no-header,right
+@@clean-table,no-header,right,column,no-margin,pad-left
 | status        | number              |
 |:--------------|--------------------:|
 | Total entries | {{total_anime}}     |
@@ -78,7 +78,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 ## Favorites
 
 \begin{columns}
-\begin{column}{grid left bottom-margin}{45%}
+\begin{column}{left bottom-margin}{45%}
 
 ### Anime
 
@@ -117,7 +117,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 }
 @@
 \end{column}
-\begin{column}{grid right no-margin}{45%}
+\begin{column}{right no-margin}{45%}
 
 ### Characters
 

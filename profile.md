@@ -40,6 +40,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 @@
 
 \end{column}
+
 \begin{column}{inner right no-margin}{44%}
 
 @@clean-table,no-header,right
@@ -51,8 +52,10 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 @@
 
 \end{column}
+
 \end{columns}
 \end{column}
+
 \begin{column}{outer right no-margin}{45%}
 @@img-full,nonumber,centering,bottom-margin
 \begin{figure}
@@ -65,6 +68,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 \end{figure}
 @@
 \end{column}
+
 \end{columns}
 
 \includegraphics{Anime viewing frequency heatmap}{

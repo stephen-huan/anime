@@ -26,14 +26,14 @@ truly personal page. Topics in scope include but are not limited to
 ## external links
 
 \begin{columns}
-\begin{column}{left}{48%}
+\begin{column}{outer full left}{48%}
 ### main
 
 - GitHub: [stephen-huan](https://github.com/stephen-huan)
 - YouTube: [@stephenhuan](https://www.youtube.com/@stephenhuan)
 \end{column}
 
-\begin{column}{right}{48%}
+\begin{column}{outer full right no-margin}{48%}
 ### contact
 
 - Email: [shuan@gatech.edu](mailto:shuan@gatech.edu)
@@ -46,7 +46,7 @@ truly personal page. Topics in scope include but are not limited to
 ### hobbies
 
 \begin{columns}
-\begin{column}{left}{48%}
+\begin{column}{outer full left}{48%}
 - anime
   - MyAnimeList: [vazae](https://myanimelist.net/profile/vazae)
   - AniList: [vazae](https://anilist.co/user/vazae)
@@ -78,7 +78,7 @@ truly personal page. Topics in scope include but are not limited to
     [2018HUAN21](https://cubepb.com/i/view?id=630&expand=0&type=user)
 \end{column}
 
-\begin{column}{right}{48%}
+\begin{column}{outer full right no-margin}{48%}
 - programming
   - GitLab: [stephenhuan](https://gitlab.com/stephenhuan)
   - Stack Overflow: [vazae](https://stackoverflow.com/users/6689149/vazae)

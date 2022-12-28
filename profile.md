@@ -7,7 +7,7 @@ title = "anime profile"
 ## Statistics
 
 \begin{columns}
-\begin{column}{outer left}{50%}
+\begin{column}{outer full left}{50%}
 
 ### Anime stats
 
@@ -56,7 +56,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 \end{columns}
 \end{column}
 
-\begin{column}{outer right no-margin}{45%}
+\begin{column}{outer full right no-margin}{45%}
 @@img-full,nonumber,centering,bottom-margin
 \begin{figure}
 \includegraphics{Anime score distribution}{/assets/scores.png}{583}{492}
@@ -78,7 +78,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 ## Favorites
 
 \begin{columns}
-\begin{column}{left bottom-margin}{45%}
+\begin{column}{outer left bottom-margin}{45%}
 
 ### Anime
 
@@ -117,7 +117,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 }
 @@
 \end{column}
-\begin{column}{right no-margin}{45%}
+\begin{column}{outer right no-margin}{45%}
 
 ### Characters
 

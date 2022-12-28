@@ -70,7 +70,7 @@ Add here global LaTeX commands to use throughout your pages.
   ~~~<div style="clear: both"></div>~~~\end{wrap}
 }
 \newenvironment{column}[2]{
-  \begin{wrap}{div class="column #1" style="width: #2;"}
+  \begin{wrap}{div class="#1" style="width: #2;"}
 }{
   \end{wrap}
 }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+    <loc>https://anime.cgdct.moe/animelist/index.html</loc>
+    <lastmod>2022-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://anime.cgdct.moe/404/index.html</loc>
+    <lastmod>2022-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://anime.cgdct.moe/blog/mal-style/index.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://anime.cgdct.moe/profile/index.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://anime.cgdct.moe/index.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://anime.cgdct.moe/blog/index.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+</urlset>

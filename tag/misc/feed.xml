@@ -39,23 +39,4 @@
   </atom:author>
         
 </item>
-
-<item>
-  <title>
-    <![CDATA[  MyAnimeList styling  ]]>
-  </title>
-  <link> https://anime.cgdct.moe/blog/mal-style/index.html </link>
-  <guid> https://anime.cgdct.moe/blog/mal-style/index.html </guid>
-  <description>
-    <![CDATA[  Styling MAL with CSS.  ]]>
-  </description>  
-    
-  <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Stephen Huan</atom:name>
-  </atom:author>
-        
-</item>
 </channel></rss>

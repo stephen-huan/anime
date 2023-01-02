@@ -14,13 +14,19 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://anime.cgdct.moe/blog/mal-style/index.html</loc>
+    <loc>https://anime.cgdct.moe/blog/2023-new-year/index.html</loc>
     <lastmod>2023-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://anime.cgdct.moe/profile/index.html</loc>
+    <lastmod>2023-01-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://anime.cgdct.moe/blog/mal-style/index.html</loc>
     <lastmod>2023-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

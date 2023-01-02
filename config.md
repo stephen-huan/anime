@@ -46,8 +46,13 @@ footer_exclude = Set(
 Add here global LaTeX commands to use throughout your pages.
 -->
 <!-- text formatting -->
+\newcommand{\bold}[1]{
+  \begin{wrap}{span class="font-weight-bold"}#1\end{wrap}
+}
 \newcommand{\emph}[1]{_!#1_}
 \newcommand{\newline}{~~~<br>~~~} <!-- avoid self-closing tag <br/> -->
+\newcommand{\href}[2]{\begin{wrap}{a href="!#1"}#2\end{wrap}}
+\newcommand{\url }[1]{\href{!#1}{~~~#1~~~}}
 \newcommand{\chapter      }[1]{\begin{wrap}{h1}#1\end{wrap}}
 \newcommand{\section      }[1]{\begin{wrap}{h2}#1\end{wrap}}
 \newcommand{\circle}[1]{~~~<span class="circle #1"></span>~~~}
@@ -58,6 +63,11 @@ Add here global LaTeX commands to use throughout your pages.
   ~~~<img alt="!#1" src="!#2" width="!#3" height="!#4">~~~
 }
 \newcommand{\caption}[1]{\begin{wrap}{figcaption}#1\end{wrap}}
+\newcommand{\figpreview}[5]{
+  \begin{wrap}{a href="!#5"}
+    \includegraphics{!#1}{{{assets}}/!#2}{!#3}{!#4}
+  \end{wrap}
+}
 \newcommand{\figanime}[3]{
   \begin{wrap}{a href="!#3"}
     \begin{wrap}{span class="anime-title"}#1\end{wrap}

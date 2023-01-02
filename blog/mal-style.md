@@ -3,7 +3,7 @@ title = "MyAnimeList styling"
 date = Date(2021, 11, 24)
 rss = "Styling MAL with CSS."
 
-tags = ["cs"]
+tags = ["anime", "cs"]
 +++
 
 {{maketitle}}

@@ -1,7 +1,7 @@
 +++
 title = "blog"
 
-displaytags = ["cs"]
+displaytags = ["anime", "cs", "misc"]
 +++
 
 @@blog-title

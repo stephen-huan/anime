@@ -46,6 +46,7 @@ footer_exclude = Set(
 Add here global LaTeX commands to use throughout your pages.
 -->
 <!-- text formatting -->
+\newcommand{\emph}[1]{_!#1_}
 \newcommand{\newline}{~~~<br>~~~} <!-- avoid self-closing tag <br/> -->
 \newcommand{\chapter      }[1]{\begin{wrap}{h1}#1\end{wrap}}
 \newcommand{\section      }[1]{\begin{wrap}{h2}#1\end{wrap}}

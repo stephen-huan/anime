@@ -21,7 +21,7 @@ parseround(value, digits) = round(value; digits=get_digits(digits))
 
 Get the total anime.
 """
-hfun_total_anime() = 668
+hfun_total_anime() = 709
 
 """
     function hfun_total_watching()
@@ -44,7 +44,7 @@ end
 
 Get the total completed anime.
 """
-hfun_total_completed() = 217
+hfun_total_completed() = 239
 
 """
     function hfun_width_total_completed()
@@ -92,7 +92,7 @@ end
 
 Get the total plantowatch anime.
 """
-hfun_total_plantowatch() = 439
+hfun_total_plantowatch() = 458
 
 """
     function hfun_width_total_plantowatch()
@@ -108,7 +108,7 @@ end
 
 Get the total number of episodes watched.
 """
-hfun_total_episodes() = 2525
+hfun_total_episodes() = 2618
 
 """
     function hfun_total_rewatched()
@@ -122,25 +122,25 @@ hfun_total_rewatched() = 0
 
 Get the mean score.
 """
-hfun_score_mean(digits=3) = parseround(7.072072072072072, digits)
+hfun_score_mean(digits=3) = parseround(7.040983606557377, digits)
 
 """
     function hfun_score_var(digits=3)
 
 Get the (uncorrected) variance of scores.
 """
-hfun_score_var(digits=3) = parseround(2.5713821930038145, digits)
+hfun_score_var(digits=3) = parseround(2.506517065305025, digits)
 
 """
     function hfun_score_std(digits=3)
 
 Get the (uncorrected) standard deviation of scores.
 """
-hfun_score_std(digits=3) = parseround(1.6035529903947092, digits)
+hfun_score_std(digits=3) = parseround(1.5831983657473327, digits)
 
 """
     function hfun_score_entropy(digits=3)
 
 Get the entropy of scores in bits
 """
-hfun_score_entropy(digits=3) = parseround(2.6710577486273044, digits)
+hfun_score_entropy(digits=3) = parseround(2.6590557645332797, digits)

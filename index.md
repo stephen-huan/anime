@@ -63,8 +63,6 @@ truly personal page. Topics in scope include but are not limited to
   - Bandcamp: [vazae](https://bandcamp.com/vazae/following/)
   - YouTube Music:
     [Stephen Huan](https://music.youtube.com/channel/UC3adQ7hzj_Ug2dr4KQp8V_w)
-  - Spotify:
-    [Stephen Huan](https://open.spotify.com/user/usw6j16jbqhh30z35h89g9rpt)
 - running
   - MileSplit:
     [Stephen Huan](https://va.milesplit.com/athletes/7390832-stephen-huan)

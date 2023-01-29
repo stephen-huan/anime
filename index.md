@@ -50,7 +50,6 @@ truly personal page. Topics in scope include but are not limited to
 - anime
   - MyAnimeList: [vazae](https://myanimelist.net/profile/vazae)
   - AniList: [vazae](https://anilist.co/user/vazae)
-  - Kitsu: [vazae](https://kitsu.io/users/698769)
   - Typing Tube: [vazae](https://typing-tube.net/user/10177)
 - games
   - itch.io: [vazae](https://vazae.itch.io)

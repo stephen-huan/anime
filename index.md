@@ -58,8 +58,6 @@ truly personal page. Topics in scope include but are not limited to
     [vazae](https://www.hoyolab.com/accountCenter/postList?id=144916597)
   - Steam:
     [vazae](https://steamcommunity.com/profiles/76561198310840168)
-  - osu!:
-    [vazae](https://osu.ppy.sh/users/16557719)
   - Pokémon Showdown!: [vazae](https://pokemonshowdown.com/users/vazae)
 - music
   - Bandcamp: [vazae](https://bandcamp.com/vazae/following/)

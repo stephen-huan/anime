@@ -10,11 +10,13 @@ mintoclevel = 2
 # these files might be copied and, if markdown, processed by Franklin which
 # you might not want. Indicate directories by ending the name with a `/`.
 # Base files such as LICENSE.md and README.md are ignored by default.
-ignore = ["Project.toml", "Manifest.toml",
-          "node_modules/", "package-lock.json", "package.json",
-          "pyproject.toml", "poetry.lock", ".venv/", "__pycache__/",
-          "bin/",
-         ]
+ignore = [
+    "Project.toml", "Manifest.toml",
+    "node_modules/", "package-lock.json", "package.json",
+    "pyproject.toml", "poetry.lock", ".venv/",
+    "__pycache__/", "_assets/__pycache__/",
+    "bin/",
+]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
@@ -27,18 +29,19 @@ website_url   = "https://anime.cgdct.moe/"
 div_content = "franklin-content"
 
 # header structure (url, display name)
-headers = [("/", "index"),
-           ("/blog/", "blog"),
-           ("/profile/", "profile"),
-           ("/animelist/", "animelist"),
-          ]
+headers = [
+    ("/", "index"),
+    ("/blog/", "blog"),
+    ("/profile/", "profile"),
+    ("/animelist/", "animelist"),
+]
 
 # git repo for page source
 git_repo = "https://github.com/stephen-huan/anime/blob/master"
 
 # footer exclude
 footer_exclude = Set(
-  ["/404/", "/blog/"]
+    ["/404/", "/blog/"]
 )
 +++
 

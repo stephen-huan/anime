@@ -10,7 +10,7 @@ https://myanimelist.net/import.php
 """
 
 # file to store processed output
-OUT = "animelist.xml"
+OUT = f"{mal.ROOT}/animelist.xml"
 
 
 def date_equal(date1: datetime, date2: datetime) -> bool:

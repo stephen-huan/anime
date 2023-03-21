@@ -1,3 +1,4 @@
+# isort: skip_file
 # https://github.com/martijnvermaat/calmap/blob/master/calmap/__init__.py
 # https://github.com/MarvinT/calmap/blob/master/calmap/__init__.py
 # ~/.local/lib/python3.10/site-packages/calmap/__init__.py

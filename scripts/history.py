@@ -8,9 +8,9 @@ edit -> Episodes Watched history -> {anime title} Episode Details
 """
 
 # path to history file
-HISTORY_FILE = "_assets/history.txt"
+HISTORY_FILE = f"{mal.ROOT}/history.txt"
 # temp file to avoid overwriting
-TEMP_FILE = "_assets/history.txt.tmp"
+TEMP_FILE = f"{mal.ROOT}/history.txt.tmp"
 DATE_FORMAT = "%m/%d/%Y at %H:%M"
 
 def parse_num(line: str) -> int:

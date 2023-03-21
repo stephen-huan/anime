@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import Normalize
 import calmap
 import history
+from mal import ROOT
 """
 Heatmap of episodes watched with calmap.
 """

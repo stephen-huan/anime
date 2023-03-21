@@ -15,7 +15,8 @@ https://myanimelist.net/panel.php?go=export
 ### initial parsing of export folder
 
 # folder containing exports
-EXPORT_PATH = "_assets/export"
+ROOT = "scripts"
+EXPORT_PATH = f"{ROOT}/export"
 # default user_id field
 USER_ID = 7702594
 

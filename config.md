@@ -11,11 +11,18 @@ mintoclevel = 2
 # you might not want. Indicate directories by ending the name with a `/`.
 # Base files such as LICENSE.md and README.md are ignored by default.
 ignore = [
-    "Project.toml", "Manifest.toml",
-    "node_modules/", "package-lock.json", "package.json",
-    "pyproject.toml", "poetry.lock", ".venv/",
-    "__pycache__/", "_assets/__pycache__/",
+    "Project.toml",
+    "Manifest.toml",
+    "node_modules/",
+    "package-lock.json",
+    "package.json",
+    "pyproject.toml",
+    "poetry.lock",
+    ".venv/",
+    "__pycache__/",
+    "scripts/__pycache__/",
     "bin/",
+    "scripts/",
 ]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)

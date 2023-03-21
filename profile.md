@@ -73,7 +73,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 
 \includegraphics{Anime viewing frequency heatmap}{
   /assets/heatmap.png
-}{790}{553}
+}{790}{702}
 
 ## Favorites
 

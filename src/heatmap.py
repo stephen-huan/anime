@@ -55,7 +55,7 @@ if __name__ == "__main__":
             # color="0.95",
         ),
         fig_kws=dict(
-            figsize=(8, 6),
+            figsize=(8, 7.5),
         ),
     )
     # or use calplot: https://github.com/tomkwok/calplot

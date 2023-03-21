@@ -20,9 +20,9 @@ ignore = [
     "poetry.lock",
     ".venv/",
     "__pycache__/",
-    "scripts/__pycache__/",
+    "src/__pycache__/",
     "bin/",
-    "scripts/",
+    "src/",
 ]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)

@@ -71,10 +71,6 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 
 \end{columns}
 
-\includegraphics{Anime viewing frequency heatmap}{
-  /assets/heatmap.png
-}{790}{702}
-
 ## Favorites
 
 \begin{columns}
@@ -152,4 +148,10 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 @@
 \end{column}
 \end{columns}
+
+## Heatmap
+
+\includegraphics{Anime viewing frequency heatmap}{
+  /assets/heatmap.png
+}{790}{702}
 

@@ -1,7 +1,8 @@
 import mal
+import matplotlib.pyplot as plt
 import numpy as np
 import scipy.stats as stats
-import matplotlib.pyplot as plt
+
 """
 Compute summary statistics for the profile page.
 """
@@ -11,9 +12,10 @@ DATAJL = "datautils.jl"
 # file to store score distribution
 OUT = "_assets/scores.png"
 
-def function(f, name: str, value, docstring: str="", roundto: bool=False):
+
+def function(f, name: str, value, docstring: str = "", roundto: bool = False):
     f.write(
-f"""
+        f"""
 \"\"\"
     {f"function hfun_{name}()" if not roundto else
      f"function hfun_{name}(digits=3)"}
@@ -23,7 +25,8 @@ f"""
 {f"hfun_{name}() = {value}" if not roundto else
  f"hfun_{name}(digits=3) = parseround({value}, digits)"}
 """
-)
+    )
+
 
 if __name__ == "__main__":
     list_type = mal.ListType.ANIME
@@ -36,7 +39,7 @@ if __name__ == "__main__":
             "# editing it directly is not advised.\n"
         )
         f.write(
-"""
+            """
 \"\"\"
     function get_digits(digits)
 
@@ -52,7 +55,7 @@ Round `value` to `digits` digits, parsing `digits` if necessary.
 \"\"\"
 parseround(value, digits) = round(value; digits=get_digits(digits))
 """
-)
+        )
 
         info = anime_list["info"]
         for key in info:
@@ -65,7 +68,7 @@ parseround(value, digits) = round(value; digits=get_digits(digits))
                 function(f, key, info[key], docstring)
                 if key != "total_anime":
                     f.write(
-f"""
+                        f"""
 \"\"\"
     function hfun_width_{key}()
 
@@ -75,7 +78,7 @@ function hfun_width_{name}()
     convert(Float64, 100*(hfun_{key}()/hfun_total_anime()))
 end
 """
-)
+                    )
 
         total_episodes = 0
         # TODO: this is untested since I haven't rewatched anything yet
@@ -83,48 +86,61 @@ end
         for anime in animelist:
             total_episodes += anime["my_watched_episodes"]
             total_rewatched += (
-                anime["my_times_watched"]*anime["series_episodes"] +
-                anime["my_rewatching_ep"]
+                anime["my_times_watched"] * anime["series_episodes"]
+                + anime["my_rewatching_ep"]
             )
 
         function(
-            f, "total_episodes", total_episodes,
-            "Get the total number of episodes watched."
+            f,
+            "total_episodes",
+            total_episodes,
+            "Get the total number of episodes watched.",
         )
         function(
-            f, "total_rewatched", total_rewatched,
-            "Get the total number of episodes rewatched."
+            f,
+            "total_rewatched",
+            total_rewatched,
+            "Get the total number of episodes rewatched.",
         )
 
-        scores = np.array([
-            anime["my_score"].value for anime in animelist
-            if anime["my_score"] != mal.Score.UNSCORED
-        ])
-        probs = np.array([
-            np.sum(scores == i) for i in range(1, 11)
-        ])
+        scores = np.array(
+            [
+                anime["my_score"].value
+                for anime in animelist
+                if anime["my_score"] != mal.Score.UNSCORED
+            ]
+        )
+        probs = np.array([np.sum(scores == i) for i in range(1, 11)])
         # probs = probs.astype(np.float64)/np.sum(probs)
 
         function(
-            f, "score_mean", np.mean(scores),
+            f,
+            "score_mean",
+            np.mean(scores),
             "Get the mean score.",
             roundto=True,
         )
 
         function(
-            f, "score_var", np.var(scores),
+            f,
+            "score_var",
+            np.var(scores),
             "Get the (uncorrected) variance of scores.",
             roundto=True,
         )
 
         function(
-            f, "score_std", np.std(scores),
+            f,
+            "score_std",
+            np.std(scores),
             "Get the (uncorrected) standard deviation of scores.",
             roundto=True,
         )
 
         function(
-            f, "score_entropy", stats.entropy(probs, base=2),
+            f,
+            "score_entropy",
+            stats.entropy(probs, base=2),
             "Get the entropy of scores in bits",
             roundto=True,
         )
@@ -132,8 +148,8 @@ end
         plt.style.use("seaborn-v0_8-whitegrid")
         plt.rc("axes", titlesize=30)  # fontsize of the x and y labels
         plt.rc("axes", labelsize=20)  # fontsize of the x and y labels
-        plt.rc("xtick", labelsize=20) # fontsize of the x tick labels
-        plt.rc("ytick", labelsize=20) # fontsize of the y tick labels
+        plt.rc("xtick", labelsize=20)  # fontsize of the x tick labels
+        plt.rc("ytick", labelsize=20)  # fontsize of the y tick labels
 
         plt.hist(scores, bins=range(1, 12), rwidth=0.6, color="#26448f")
 
@@ -143,4 +159,3 @@ end
         plt.ylabel("Number of entries")
 
         plt.savefig(OUT, bbox_inches="tight")
-

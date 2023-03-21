@@ -1,6 +1,8 @@
 from datetime import datetime
-import mal
+
 import history
+import mal
+
 """
 Set the start and end dates to be the first and last episodes watched.
 To update, load the resulting XML into:
@@ -10,10 +12,12 @@ https://myanimelist.net/import.php
 # file to store processed output
 OUT = "animelist.xml"
 
+
 def date_equal(date1: datetime, date2: datetime) -> bool:
-    """ Whether two dates are equal to some precision. """
+    """Whether two dates are equal to some precision."""
     fmt = "%Y-%m-%d"
     return date1.strftime(fmt) == date2.strftime(fmt)
+
 
 if __name__ == "__main__":
     list_type = mal.ListType.ANIME
@@ -21,9 +25,9 @@ if __name__ == "__main__":
     entries = history.parse_entries()
     count = 0
     for anime in anime_list[list_type]:
-        if anime["my_status"] is mal.Status.COMPLETED and \
-                (anime["my_start_date"]  is None or \
-                 anime["my_finish_date"] is None):
+        if anime["my_status"] is mal.Status.COMPLETED and (
+            anime["my_start_date"] is None or anime["my_finish_date"] is None
+        ):
             title = anime["series_title"]
             start_date = entries[title]["start_date"]
             if anime["my_start_date"] is None:
@@ -46,4 +50,3 @@ if __name__ == "__main__":
     mal.check_valid(anime_list)
     print(f"Updating {count} entries...")
     mal.write(OUT, mal.data_to_xml(anime_list))
-

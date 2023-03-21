@@ -1,7 +1,10 @@
 import argparse
+import os
+import shutil
 from datetime import datetime
-import os, shutil
+
 import mal
+
 """
 Maintain a text "database" of history, manually copied from MAL:
 edit -> Episodes Watched history -> {anime title} Episode Details
@@ -13,18 +16,21 @@ HISTORY_FILE = f"{mal.ROOT}/history.txt"
 TEMP_FILE = f"{mal.ROOT}/history.txt.tmp"
 DATE_FORMAT = "%m/%d/%Y at %H:%M"
 
+
 def parse_num(line: str) -> int:
-    """ Parse a line's episode number (0-indexed). """
+    """Parse a line's episode number (0-indexed)."""
     return int(line.split()[1][:-1]) - 1
 
+
 def parse_date(line: str) -> datetime:
-    """ Parse a line into a datetime object. """
+    """Parse a line into a datetime object."""
     # Ep {num}, watched on {DATE_FORMAT} Remove
     return datetime.strptime(" ".join(line.split()[4:-1]), DATE_FORMAT)
 
+
 def parse_blocks(path: str) -> list[str]:
-    """ Parse the raw input into a group of blocks. """
-    blocks = [] # list of blocks
+    """Parse the raw input into a group of blocks."""
+    blocks = []  # list of blocks
     block = []  # current block
     with open(path) as f:
         for line in map(str.strip, f.readlines()):
@@ -39,9 +45,16 @@ def parse_blocks(path: str) -> list[str]:
         block = []
     return blocks
 
-def parse_entries(path: str=HISTORY_FILE) -> dict[str, dict[str,
-    int | datetime | list[tuple[int, datetime]] | list[list[datetime]]]]:
-    """ Parse the entries into the main data structure.
+
+def parse_entries(
+    path: str = HISTORY_FILE,
+) -> dict[
+    str,
+    dict[
+        str, int | datetime | list[tuple[int, datetime]] | list[list[datetime]]
+    ],
+]:
+    """Parse the entries into the main data structure.
 
     The title of the anime is mapped to
     title: {
@@ -74,8 +87,10 @@ def parse_entries(path: str=HISTORY_FILE) -> dict[str, dict[str,
             print(f"{title} not found in the export.")
             continue
         # duplicate, take first entry in the file or not completed
-        if title in entries or \
-                anime_list[title]["my_status"] is not mal.Status.COMPLETED:
+        if (
+            title in entries
+            or anime_list[title]["my_status"] is not mal.Status.COMPLETED
+        ):
             continue
         num_episodes = anime_list[title]["series_episodes"]
         episodes = [[] for _ in range(num_episodes)]
@@ -84,8 +99,11 @@ def parse_entries(path: str=HISTORY_FILE) -> dict[str, dict[str,
         # define the "finish date" as the *first* time seeing the last episode
         # multiple re-watches of the show therefore does not affect it
         # reverse sorted by date
-        finish_date = episodes[-1][-1] if len(episodes[-1]) > 0 else \
-            anime_list[title]["my_finish_date"]
+        finish_date = (
+            episodes[-1][-1]
+            if len(episodes[-1]) > 0
+            else anime_list[title]["my_finish_date"]
+        )
         # fill in implied missing values backwards from the known finish
         last_date = finish_date
         for num in range(num_episodes - 1, -1, -1):
@@ -101,23 +119,39 @@ def parse_entries(path: str=HISTORY_FILE) -> dict[str, dict[str,
             "series_episodes": num_episodes,
             "start_date": start_date,
             "finish_date": finish_date,
-            "ordered": sorted([
-                (num + 1, date)
-                for num, episode_list in enumerate(episodes)
-                for date in episode_list
-            ], key=lambda x: (x[1], x[0])),
+            "ordered": sorted(
+                [
+                    (num + 1, date)
+                    for num, episode_list in enumerate(episodes)
+                    for date in episode_list
+                ],
+                key=lambda x: (x[1], x[0]),
+            ),
             "episodes": episodes,
         }
     return entries
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="parse history")
-    parser.add_argument("-p", "--path", default=HISTORY_FILE,
-                        help="path to history file")
-    parser.add_argument("-u", "--update", action="store_true",
-                        help="update and reformat")
-    parser.add_argument("-s", "--show", action="store_true",
-                        help="show statistics")
+    parser.add_argument(
+        "-p",
+        "--path",
+        default=HISTORY_FILE,
+        help="path to history file",
+    )
+    parser.add_argument(
+        "-u",
+        "--update",
+        action="store_true",
+        help="update and reformat",
+    )
+    parser.add_argument(
+        "-s",
+        "--show",
+        action="store_true",
+        help="show statistics",
+    )
 
     args = parser.parse_args()
 
@@ -135,9 +169,12 @@ if __name__ == "__main__":
         # avoid losing history if interrupted in the middle
         shutil.copy(HISTORY_FILE, TEMP_FILE)
         with open(HISTORY_FILE, "w") as f:
-            f.write("\n\n".join(
-                "\n".join(block)
-                for block in sorted(blocks, key=lambda block: block[0])))
+            f.write(
+                "\n\n".join(
+                    "\n".join(block)
+                    for block in sorted(blocks, key=lambda block: block[0])
+                )
+            )
         os.remove(TEMP_FILE)
     elif args.show:
         list_type = mal.ListType.ANIME
@@ -146,7 +183,8 @@ if __name__ == "__main__":
         print(f"{len(entries)} entries in history.")
         for anime in anime_list[list_type]:
             title = anime["series_title"]
-            if anime["my_status"] is mal.Status.COMPLETED and \
-                    title not in entries:
+            if (
+                anime["my_status"] is mal.Status.COMPLETED
+                and title not in entries
+            ):
                 print(f"Missing {title} from history.")
-

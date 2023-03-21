@@ -1,4 +1,5 @@
 import mal
+
 """
 Create the main HTML table to store the animelist.
 """
@@ -7,16 +8,18 @@ ROOT = mal.ROOT
 MAL = "https://myanimelist.net/anime"
 TABLE = "_layout/animelist.html"
 
-def progress(i: int, anime: dict) -> str:
-    """ Return the progress. """
-    dash = lambda x: x if x != 0 else "-"
+
+def progress(_: int, anime: dict) -> str:
+    """Return the progress."""
+    dash = lambda x: x if x != 0 else "-"  # noqa: E731
     watched = dash(anime["my_watched_episodes"])
     total = dash(anime["series_episodes"])
     return (
         f"<pre>{watched:>3} / {total:>3}</pre>"
-        if anime["my_status"] != mal.Status.COMPLETED else
-        f"<pre>{total}</pre>"
+        if anime["my_status"] != mal.Status.COMPLETED
+        else f"<pre>{total}</pre>"
     )
+
 
 if __name__ == "__main__":
     list_type = mal.ListType.ANIME
@@ -25,33 +28,49 @@ if __name__ == "__main__":
 
     # sort by type, within by title
     order = list(mal.Status)
-    animelist.sort(key=lambda anime:
-        (order.index(anime["my_status"]), anime["series_title"])
+    animelist.sort(
+        key=lambda anime: (
+            order.index(anime["my_status"]),
+            anime["series_title"],
+        )
     )
     # (display header, css class, callable)
     columns = [
-        ("", "status", lambda i, anime: ({
-                mal.Status.VIEWING: "watching",
-                mal.Status.COMPLETED : "completed",
-                mal.Status.ONHOLD: "on_hold",
-                mal.Status.DROPPED: "dropped",
-                mal.Status.PLANTOVIEW: "plan_to_watch",
-            }[anime["my_status"]], "")
-         ),
-        ("#", "number", lambda i, anime: i),
-        ("Title", "title", lambda i, anime: (
-            f'<a href="{MAL}/{anime["series_animedb_id"]}">'
-            f"{anime['series_title']}</a>"
-        )),
-        ("Score", "score", lambda i, anime: {
+        (
+            "",
+            "status",
+            lambda _, anime: (
+                {
+                    mal.Status.VIEWING: "watching",
+                    mal.Status.COMPLETED: "completed",
+                    mal.Status.ONHOLD: "on_hold",
+                    mal.Status.DROPPED: "dropped",
+                    mal.Status.PLANTOVIEW: "plan_to_watch",
+                }[anime["my_status"]],
+                "",
+            ),
+        ),
+        ("#", "number", lambda i, _: i),
+        (
+            "Title",
+            "title",
+            lambda _, anime: (
+                f'<a href="{MAL}/{anime["series_animedb_id"]}">'
+                f"{anime['series_title']}</a>"
+            ),
+        ),
+        (
+            "Score",
+            "score",
+            lambda _, anime: {
                 mal.Score.UNSCORED: "-",
                 mal.Score.SCORE10: "10",
-            }.get(anime["my_score"], anime["my_score"].value)
+            }.get(anime["my_score"], anime["my_score"].value),
         ),
-        ("Type", "type", lambda i, anime: anime["series_type"].value),
+        ("Type", "type", lambda _, anime: anime["series_type"].value),
         ("Progress", "progress", progress),
     ]
-    make_cell = lambda classes, data: (
+    make_cell = lambda classes, data: (  # noqa: E731
         f'{indent}<td class="{classes}">{data}</td>\n'
     )
 
@@ -68,10 +87,10 @@ if __name__ == "__main__":
             # make header
             "    <tr>\n"
         )
-        indent = " "*6
+        indent = " " * 6
         for name, cssclass, _ in columns:
             f.write(f'{indent}<th class="{cssclass}">{name}</th>\n')
-        f.write(f"    </tr>\n")
+        f.write("    </tr>\n")
         for i, anime in enumerate(animelist):
             f.write("    <tr>\n")
             for _, cssclass, callback in columns:
@@ -81,9 +100,5 @@ if __name__ == "__main__":
                     cssclass = f"{cssclass} {data[0]}"
                     data = data[1]
                 f.write(make_cell(cssclass, data))
-            f.write(f"    </tr>\n")
-        f.write(
-            "  </tbody>\n"
-            "</table>\n"
-        )
-
+            f.write("    </tr>\n")
+        f.write("  </tbody>\n</table>\n")

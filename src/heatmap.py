@@ -1,11 +1,12 @@
 from datetime import datetime
 
-import calmap
-import history
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+
+import calmap
+import history
 
 """
 Heatmap of episodes watched with calmap.

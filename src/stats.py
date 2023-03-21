@@ -1,7 +1,8 @@
-import mal
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy.stats as stats
+
+import mal
 
 """
 Compute summary statistics for the profile page.

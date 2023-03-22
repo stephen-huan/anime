@@ -25,6 +25,7 @@ ignore = [
     "src/__pycache__/",
     "bin/",
     "src/",
+    "_assets/blog/mal-style/.sass-cache/"
 ]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)

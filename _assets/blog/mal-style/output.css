@@ -6,11 +6,14 @@
 * - https://markdotto.com/2018/02/07/github-system-fonts/
 * - https://getbootstrap.com/docs/5.2/content/reboot/#native-font-stack
 */
+/* prettier-ignore */
+/* prettier-ignore */
 /* there seems to be less agreement on monospace, these are from GitHub
 * - https://www.client9.com/css-system-font-stack-monospace-v2/
 * - https://www.digitalocean.com/community/tutorials/css-system-font-stack
 * - https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
 */
+/* prettier-ignore */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 0.6875rem; }
@@ -88,7 +91,8 @@ body {
   text-align: right;
   padding-right: 0.5rem;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono", "Liberation Mono", monospace; }
-.list-table .list-table-data .data.chapter, .list-table .list-table-data .data.volume {
+.list-table .list-table-data .data.chapter,
+.list-table .list-table-data .data.volume {
   text-align: right;
   padding-right: 0.375rem;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono", "Liberation Mono", monospace; }

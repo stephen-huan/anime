@@ -1,0 +1,11 @@
+node_modules
+_libs
+__site/libs
+_layout
+_rss
+.venv
+src
+*.md
+_assets/blog/mal-style/output.css
+# broken for now
+__site/blog/2023-new-year/index.html

@@ -1,3 +1,4 @@
+/* prettier-ignore */
 :root {
   /* taken from https://myanimelist.net/profile/vazae */
   --mal-green-color:  #2db039;
@@ -14,21 +15,38 @@
   display: inline-block;
 }
 
-.watching      {background-color: var(--mal-green-color);  }
-.completed     {background-color: var(--mal-blue-color);   }
-.on_hold       {background-color: var(--mal-yellow-color); }
-.dropped       {background-color: var(--mal-red-color);    }
-.plan_to_watch {background-color: var(--mal-grey-color);   }
+.watching {
+  background-color: var(--mal-green-color);
+}
+.completed {
+  background-color: var(--mal-blue-color);
+}
+.on_hold {
+  background-color: var(--mal-yellow-color);
+}
+.dropped {
+  background-color: var(--mal-red-color);
+}
+.plan_to_watch {
+  background-color: var(--mal-grey-color);
+}
 
 /* ==================================================================
     STATISTICS GRAPH
 ================================================================== */
 
-.stats-graph span { display: inline-block; height: var(--font-size-normal); }
+.stats-graph span {
+  display: inline-block;
+  height: var(--font-size-normal);
+}
 
-.clean-table table { margin-bottom: 0; }
+.clean-table table {
+  margin-bottom: 0;
+}
 
-figure { margin: 0; }
+figure {
+  margin: 0;
+}
 
 .franklin-content .img-full img {
   width: 100%;
@@ -37,24 +55,45 @@ figure { margin: 0; }
   text-align: center;
 }
 
-#space { color: var(--background); display: none; }
-@media (max-width: 480px) { #space { display: unset; } }
+#space {
+  color: var(--background);
+  display: none;
+}
+@media (max-width: 480px) {
+  #space {
+    display: unset;
+  }
+}
 
 @media (max-width: 940px) {
-  .franklin-content div.outer { clear: both; float: left; text-align: left; }
-  .franklin-content div.full  { width: 100% !important; }
+  .franklin-content div.outer {
+    clear: both;
+    float: left;
+    text-align: left;
+  }
+  .franklin-content div.full {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 760px) {
-  .franklin-content div.inner { clear: both; float: left; text-align: left; }
-  .franklin-content .pad-left { margin-left: 2rem; }
+  .franklin-content div.inner {
+    clear: both;
+    float: left;
+    text-align: left;
+  }
+  .franklin-content .pad-left {
+    margin-left: 2rem;
+  }
 }
 
 /* ==================================================================
     FAVORITES
 ================================================================== */
 
-.bottom-margin { margin-bottom: 1rem; }
+.bottom-margin {
+  margin-bottom: 1rem;
+}
 
 .favorites {
   display: grid;
@@ -95,9 +134,7 @@ figure { margin: 0; }
 }
 
 .favorites a:hover {
-  box-shadow:
-    0 2px  5px 0 rgba(0, 0, 0, 0.16),
-    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .favorites a:hover .anime-title {
@@ -110,15 +147,32 @@ figure { margin: 0; }
     ANIMELIST
 ================================================================== */
 
-.animelist th.status { border-right-style: none; }
-.animelist th.number { border-left-style: none; }
+.animelist th.status {
+  border-right-style: none;
+}
+.animelist th.number {
+  border-left-style: none;
+}
 
-.animelist .status   { min-width: 0.25rem; padding: 0; }
-.animelist .number   { text-align: right;  }
-.animelist .title    { text-align: left;   }
-.animelist .score    { text-align: center; }
-.animelist .type     { text-align: center; }
-.animelist .progress { text-align: right;  }
+.animelist .status {
+  min-width: 0.25rem;
+  padding: 0;
+}
+.animelist .number {
+  text-align: right;
+}
+.animelist .title {
+  text-align: left;
+}
+.animelist .score {
+  text-align: center;
+}
+.animelist .type {
+  text-align: center;
+}
+.animelist .progress {
+  text-align: right;
+}
 
 .animelist td.number,
 .animelist td.score,
@@ -131,7 +185,7 @@ figure { margin: 0; }
 }
 
 .animelist td.title,
-.animelist td.type  {
+.animelist td.type {
   /* font-size: 0.875rem; */
   font-size: 1rem;
   padding: 0 0.5rem 0 0.5rem;
@@ -145,4 +199,3 @@ figure { margin: 0; }
 .animelist td.title a:hover {
   text-decoration: underline;
 }
-

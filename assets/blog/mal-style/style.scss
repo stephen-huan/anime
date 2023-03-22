@@ -9,6 +9,7 @@
 * - https://markdotto.com/2018/02/07/github-system-fonts/
 * - https://getbootstrap.com/docs/5.2/content/reboot/#native-font-stack
 */
+/* prettier-ignore */
 $font:
   -apple-system,
   BlinkMacSystemFont,
@@ -22,6 +23,7 @@ $font:
   "Segoe UI Emoji",
   "Segoe UI Symbol";
 // original MAL font
+/* prettier-ignore */
 $font-mal:
   "Helvetica neue",
   Helvetica,
@@ -35,6 +37,7 @@ $font-mal:
 * - https://www.digitalocean.com/community/tutorials/css-system-font-stack
 * - https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
 */
+/* prettier-ignore */
 $font-mono:
   ui-monospace,
   SFMono-Regular,
@@ -134,17 +137,37 @@ body {
     }
 
     // make title, score narrower and give more space to tags
-    .header-title.status   {width: 0.25rem;}
-    .header-title.number   {width:      3%;}
-    .header-title.image    {width:      0%;}
-    .header-title.title    {width:    auto;}
-    .header-title.score    {width:      4%;}
-    .header-title.type     {width:      6%;}
-    .header-title.progress {width:    9.4%;}
-    .header-title.tags     {width:     20%;}
+    .header-title.status {
+      width: 0.25rem;
+    }
+    .header-title.number {
+      width: 3%;
+    }
+    .header-title.image {
+      width: 0%;
+    }
+    .header-title.title {
+      width: auto;
+    }
+    .header-title.score {
+      width: 4%;
+    }
+    .header-title.type {
+      width: 6%;
+    }
+    .header-title.progress {
+      width: 9.4%;
+    }
+    .header-title.tags {
+      width: 20%;
+    }
 
-    .header-title.chapters {width:    9.8%;}
-    .header-title.volumes  {width:    9.8%;}
+    .header-title.chapters {
+      width: 9.8%;
+    }
+    .header-title.volumes {
+      width: 9.8%;
+    }
   }
 
   // table data
@@ -194,7 +217,8 @@ body {
     }
 
     // manga has different width columns, could do math
-    .data.chapter, .data.volume {
+    .data.chapter,
+    .data.volume {
       text-align: right;
       padding-right: $pad-manga-progress;
       font-family: $font-mono;
@@ -256,11 +280,11 @@ body {
 }
 
 // replace score of 10 with 0
-@include replace_text("a .score-label.score-10", "0",
-  $font-size-score
-);
+@include replace_text("a .score-label.score-10", "0", $font-size-score);
 // make lowercase
-@include replace_text(".list-table .list-table-data .tags .edit", "edit",
+@include replace_text(
+  ".list-table .list-table-data .tags .edit",
+  "edit",
   $font-size-small
 );
 
@@ -288,4 +312,3 @@ textarea {
   font-family: $font-mono;
   font-size: $font-size-normal;
 }
-

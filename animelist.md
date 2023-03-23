@@ -1,5 +1,6 @@
 +++
 title = "animelist"
+stylesheets = ["/css/mal.css"]
 +++
 
 # animelist

@@ -8,12 +8,13 @@ copy() {
     cp "$MAIN/$1" "./$1"
 }
 
-mkdir --parents "_css"
-# copy "_css/main.css"
+mkdir --parents "_css/root/blog"
+copy "_css/main.css"
 copy "_css/katex.css"
 copy "_css/highlight.css"
 copy "_css/tag.css"
-# cp "$MAIN/_css/main.css" "./_css/franklin.css"
+copy "_css/root/blog/index.css"
+copy "_css/root/404.css"
 
 mkdir --parents "_assets"
 copy "_assets/favicon.svg"

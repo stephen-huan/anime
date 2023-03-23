@@ -1,5 +1,6 @@
 +++
 title = "anime profile"
+stylesheets = ["/css/mal.css"]
 +++
 
 # Profile

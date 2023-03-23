@@ -30,3 +30,45 @@
 .plan_to_watch {
   background-color: var(--mal-grey-color);
 }
+
+/* ==================================================================
+    COLUMNS
+================================================================== */
+
+@media (max-width: 940px) {
+  .franklin-content div.outer {
+    clear: both;
+    float: left;
+    text-align: left;
+  }
+  .franklin-content div.full {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .franklin-content div.inner {
+    clear: both;
+    float: left;
+    text-align: left;
+  }
+  .franklin-content .pad-left {
+    margin-left: 2rem;
+  }
+}
+
+.width-44 {
+  width: 44%;
+}
+.width-45 {
+  width: 45%;
+}
+.width-48 {
+  width: 48%;
+}
+.width-50 {
+  width: 50%;
+}
+.width-52 {
+  width: 52%;
+}

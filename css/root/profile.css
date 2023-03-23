@@ -32,28 +32,6 @@ figure {
   }
 }
 
-@media (max-width: 940px) {
-  .franklin-content div.outer {
-    clear: both;
-    float: left;
-    text-align: left;
-  }
-  .franklin-content div.full {
-    width: 100% !important;
-  }
-}
-
-@media (max-width: 760px) {
-  .franklin-content div.inner {
-    clear: both;
-    float: left;
-    text-align: left;
-  }
-  .franklin-content .pad-left {
-    margin-left: 2rem;
-  }
-}
-
 /* ==================================================================
     FAVORITES
 ================================================================== */

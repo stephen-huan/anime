@@ -9,7 +9,7 @@ stylesheets = ["/css/mal.css"]
 ## Statistics
 
 \begin{columns}
-\begin{column}{outer full left}{50%}
+\begin{column}{outer full left}{width-50}
 
 ### Anime stats
 
@@ -29,7 +29,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 @@
 
 \begin{columns}
-\begin{column}{inner left}{52%}
+\begin{column}{inner left}{width-52}
 
 @@clean-table,no-header,left
 | legend                 | status        | number                      |
@@ -43,7 +43,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 
 \end{column}
 
-\begin{column}{inner right no-margin}{44%}
+\begin{column}{inner right no-margin}{width-44}
 
 @@clean-table,no-header,right,column,no-margin,pad-left
 | status        | number              |
@@ -58,7 +58,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 \end{columns}
 \end{column}
 
-\begin{column}{outer full right no-margin}{45%}
+\begin{column}{outer full right no-margin}{width-45}
 @@img-full,nonumber,centering,bottom-margin
 \begin{figure}
 \includegraphics{Anime score distribution}{/assets/scores.png}{583}{492}
@@ -76,7 +76,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 ## Favorites
 
 \begin{columns}
-\begin{column}{outer left bottom-margin}{45%}
+\begin{column}{outer left bottom-margin}{width-45}
 
 ### Anime
 
@@ -111,7 +111,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 }
 @@
 \end{column}
-\begin{column}{outer right no-margin}{45%}
+\begin{column}{outer right no-margin}{width-45}
 
 ### Characters
 

@@ -31,7 +31,7 @@ ignore = [
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
 website_title = "anime"
-website_descr = "Miscellaneous thoughts on anime"
+website_descr = "Miscellaneous thoughts on life, anime, and more."
 website_url   = "https://anime.cgdct.moe/"
 # prepath = "anime"
 

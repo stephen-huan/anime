@@ -1,5 +1,6 @@
 +++
 title = "anime profile"
+meta_description = "A summary of the anime and characters I've liked."
 stylesheets = ["/css/mal.css"]
 +++
 

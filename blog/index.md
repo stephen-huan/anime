@@ -1,5 +1,6 @@
 +++
 title = "blog"
+meta_description = "cute girls doing cute things"
 
 displaytags = ["anime", "cs", "misc"]
 +++

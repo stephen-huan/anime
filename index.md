@@ -1,5 +1,6 @@
 +++
 title = "anime"
+meta_description = "Miscellaneous thoughts on life, anime, and more."
 +++
 
 # About

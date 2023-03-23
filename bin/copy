@@ -10,7 +10,10 @@ copy() {
 
 mkdir --parents "_css"
 # copy "_css/main.css"
-cp "$MAIN/_css/main.css" "./_css/franklin.css"
+copy "_css/katex.css"
+copy "_css/highlight.css"
+copy "_css/tag.css"
+# cp "$MAIN/_css/main.css" "./_css/franklin.css"
 
 mkdir --parents "_assets"
 copy "_assets/favicon.svg"
@@ -19,10 +22,7 @@ copy "_assets/hamburger.svg"
 mkdir --parents "_layout"
 copy "_layout/foot.html"
 copy "_layout/head.html"
-copy "_layout/head_highlight.html"
-copy "_layout/head_katex.html"
 # copy "_layout/header.html"
-touch "_layout/header.html"
 copy "_layout/page_foot.html"
 copy "_layout/tag.html"
 

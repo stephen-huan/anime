@@ -36,8 +36,9 @@ With that out of the way, let's see what I did in 2022.
 
 The classes I took at Georgia Tech the spring semester of my first year were
 
+@@table-classes
 | number | classes                            |
-|-------:|:-----------------------------------|
+|--------|------------------------------------|
 | 1      | ENGL 1102 (english 2), 3           |
 | 2      | MATH 2106 (proofs), 3              |
 | 3      | CS 2110 (computer organization), 4 |
@@ -45,6 +46,7 @@ The classes I took at Georgia Tech the spring semester of my first year were
 | 5      | CS 3510 (algorithms), 3            |
 | 6      | CS 2699 (research), 3              |
 | total  | 19 credit hours                    |
+@@
 
 At Georgia Tech every introductory English has a theme; ours was
 science fiction which was kind of fun. I remember watching [_Ex
@@ -127,12 +129,14 @@ Since over the summer you pay tuition per credit hour rather
 than for the semester, I tried to keep my coursework as light
 as possible. The classes I chose to take ended up being
 
+@@table-classes
 | number | classes                         |
-|-------:|:--------------------------------|
+|--------|---------------------------------|
 | 1      | MATH 4150 (number theory), 3    |
 | 2      | PSYC 1101 (intro psychology), 3 |
 | 3      | CS 4698 (research), 6 (audit)   |
 | total  | 6  (billable) credit hours      |
+@@
 
 The psychology class I just read the textbook
 and took the tests. Not much to say.
@@ -204,8 +208,9 @@ where it would go. So that's exciting, but also a bit scary.
 Perhaps I had too much free time over the
 summer, so I overcorrected a bit in the fall.
 
+@@table-classes
 | number | classes                         |
-|-------:|:--------------------------------|
+|--------|---------------------------------|
 | 1      | CSE 6644 (iterative systems), 3 |
 | 2      | MATH 4317 (analysis 1), 3       |
 | 3      | MATH 4441 (diff. geometry), 3   |
@@ -214,6 +219,7 @@ summer, so I overcorrected a bit in the fall.
 | 6      | LMC 4701 (thesis writing), 1    |
 | 7      | CS 4699 (research), 6           |
 | total  | 20 credit hours                 |
+@@
 
 I actually failed the advanced standing exam[^10] for differential
 equations in the spring so I figured I might as well just take the

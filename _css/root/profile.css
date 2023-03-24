@@ -2,6 +2,16 @@
     STATISTICS GRAPH
 ================================================================== */
 
+.table-stats td,
+.table-total td {
+  text-align: left;
+}
+
+.table-stats td:nth-child(3),
+.table-total td:nth-child(2) {
+  text-align: right;
+}
+
 .stats-graph span {
   display: inline-block;
   height: var(--font-size-normal);

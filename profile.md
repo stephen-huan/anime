@@ -31,7 +31,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 \begin{columns}
 \begin{column}{inner left}{width-52}
 
-@@clean-table,no-header,left
+@@table-stats,clean-table,no-header,left
 | legend                 | status        | number                      |
 |:-----------------------|:--------------|-----------------------------|
 | \circle{watching}      | Watching      |       {{total_watching}}    |
@@ -45,7 +45,7 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 
 \begin{column}{inner right no-margin}{width-44}
 
-@@clean-table,no-header,right,column,no-margin,pad-left
+@@table-total,clean-table,no-header,column,no-margin,pad-left
 | status        | number              |
 |:--------------|--------------------:|
 | Total entries | {{total_anime}}     |

@@ -9,7 +9,7 @@ Compute summary statistics for the profile page.
 """
 
 # file to store statistics
-DATAJL = "datautils.jl"
+DATAJL = "utils/data.jl"
 # file to store score distribution
 OUT = "_assets/scores.png"
 

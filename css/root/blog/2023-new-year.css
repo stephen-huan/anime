@@ -1,0 +1,7 @@
+.table-classes td {
+  text-align: right;
+}
+
+.table-classes td:nth-child(2) {
+  text-align: left;
+}

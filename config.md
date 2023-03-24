@@ -24,6 +24,7 @@ ignore = [
     "__pycache__/",
     "bin/",
     "src/",
+    "utils/",
     "_assets/blog/mal-style/.sass-cache/"
 ]
 
@@ -53,47 +54,3 @@ footer_exclude = Set(
     ["/404/", "/blog/"]
 )
 +++
-
-<!--
-Add here global LaTeX commands to use throughout your pages.
--->
-<!-- text formatting -->
-\newcommand{\bold}[1]{
-  \begin{wrap}{span class="font-weight-bold"}#1\end{wrap}
-}
-\newcommand{\emph}[1]{_!#1_}
-\newcommand{\href}[2]{\begin{wrap}{a href="!#1"}#2\end{wrap}}
-\newcommand{\url }[1]{\href{!#1}{~~~#1~~~}}
-\newcommand{\chapter      }[1]{\begin{wrap}{h1}#1\end{wrap}}
-\newcommand{\section      }[1]{\begin{wrap}{h2}#1\end{wrap}}
-\newcommand{\circle}[1]{~~~<span class="circle #1"></span>~~~}
-\newcommand{\space    }{~~~<span id="space">0</span>~~~}
-<!-- images -->
-\newenvironment{figure}{\begin{wrap}{figure}}{\end{wrap}}
-\newcommand{\includegraphics}[4]{
-  ~~~<img alt="!#1" src="!#2" width="!#3" height="!#4">~~~
-}
-\newcommand{\caption}[1]{\begin{wrap}{figcaption}#1\end{wrap}}
-\newcommand{\figpreview}[5]{
-  \begin{wrap}{a href="!#5"}
-    \includegraphics{!#1}{{{assets}}/!#2}{!#3}{!#4}
-  \end{wrap}
-}
-\newcommand{\figanime}[3]{
-  \begin{wrap}{a href="!#3"}
-    \begin{wrap}{span class="anime-title"}#1\end{wrap}
-    \includegraphics{#1}{/assets/favorites/!#2}{100}{150}
-  \end{wrap}
-}
-<!-- columns -->
-\newenvironment{columns}{
-  \begin{wrap}{div class="row"}
-}{
-  ~~~<div class="column-end"></div>~~~\end{wrap}
-}
-\newenvironment{column}[2]{
-  \begin{wrap}{div class="#1 #2"}
-}{
-  \end{wrap}
-}
-

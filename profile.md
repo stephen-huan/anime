@@ -137,11 +137,11 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 \figanime{Shinonome Nano}{character/119458.webp}{
   https://myanimelist.net/character/10422/Nano_Shinonome
 }
+\figanime{Yui}{character/204447.webp}{
+  https://myanimelist.net/character/43892/Yui
+}
 \figanime{Kafuu Chino}{character/244251.webp}{
   https://myanimelist.net/character/94941/Chino_Kafuu
-}
-\figanime{Akemi Homura}{character/219771.webp}{
-  https://myanimelist.net/character/38005/Homura_Akemi
 }
 @@
 \end{column}

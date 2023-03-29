@@ -134,14 +134,14 @@ Score $ \mu \pm \sigma $: {{score_mean 3}} $ \pm $ {{score_std 3}}
 \figanime{Futaba Rio}{character/361763.webp}{
   https://myanimelist.net/character/163452/Rio_Futaba
 }
+\figanime{Uiharu Kazari}{character/396279.webp}{
+  https://myanimelist.net/character/20622/Kazari_Uiharu
+}
 \figanime{Shinonome Nano}{character/119458.webp}{
   https://myanimelist.net/character/10422/Nano_Shinonome
 }
 \figanime{Yui}{character/204447.webp}{
   https://myanimelist.net/character/43892/Yui
-}
-\figanime{Kafuu Chino}{character/244251.webp}{
-  https://myanimelist.net/character/94941/Chino_Kafuu
 }
 @@
 \end{column}

@@ -49,6 +49,8 @@ headers = [
 # git repo for page source
 git_repo = "https://github.com/stephen-huan/anime/blob/master"
 
+footer_text = "そんなことないよ。"
+
 # footer exclude
 footer_exclude = Set(
     ["/404/", "/blog/"]

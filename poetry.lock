@@ -56,15 +56,19 @@ description = "Calendar heatmaps from Pandas time series data"
 category = "main"
 optional = false
 python-versions = "*"
-files = [
-    {file = "calmap-0.0.9-py2.py3-none-any.whl", hash = "sha256:24ff083fb91232ecc6cd6c17cc32cdfb97c6f20b040503bb6c9e7fd82722699f"},
-    {file = "calmap-0.0.9.tar.gz", hash = "sha256:b16326be5dca3951930a76b6257512362a457ecd688c5e2a991d03282c5f9b3f"},
-]
+files = []
+develop = false
 
 [package.dependencies]
 matplotlib = "*"
 numpy = "*"
 pandas = "*"
+
+[package.source]
+type = "git"
+url = "https://github.com/stephen-huan/calmap"
+reference = "HEAD"
+resolved_reference = "05e8c1fbe1a9d6d1bd6c2abdd9f475e0cb3d9ae0"
 
 [[package]]
 name = "click"
@@ -721,4 +725,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "b250088f9e9a3776f7f79f0c000c8f5066e349ea171df03a258cb0dc5f819fd6"
+content-hash = "c9f2395ef4fa1173dbb40377d1dac07588fa0fe34cd4268e9ad3b4d2aec68c0e"

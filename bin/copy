@@ -34,6 +34,8 @@ copy "Project.toml"
 # copy "Manifest.toml"
 copy "package.json"
 # copy "package-lock.json"
+copy "pyproject.toml"
+# copy "poetry.lock"
 
 cp --recursive "$MAIN/utils" .
 

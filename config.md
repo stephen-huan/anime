@@ -13,6 +13,7 @@ mintoclevel = 2
 ignore = [
     "Project.toml",
     "Manifest.toml",
+    ".JuliaFormatter.toml",
     "node_modules/",
     "package-lock.json",
     "package.json",
@@ -22,10 +23,12 @@ ignore = [
     "poetry.lock",
     ".venv/",
     "__pycache__/",
+    ".lycheecache",
+    "lychee.toml",
     "bin/",
     "src/",
     "utils/",
-    "_assets/blog/mal-style/.sass-cache/"
+    "_assets/blog/mal-style/.sass-cache/",
 ]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)

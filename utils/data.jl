@@ -36,7 +36,7 @@ hfun_total_watching() = 7
 Get the percentage watching anime takes up out of total anime.
 """
 function hfun_width_watching()
-    convert(Float64, 100*(hfun_total_watching()/hfun_total_anime()))
+    return convert(Float64, 100 * (hfun_total_watching() / hfun_total_anime()))
 end
 
 """
@@ -52,7 +52,9 @@ hfun_total_completed() = 241
 Get the percentage completed anime takes up out of total anime.
 """
 function hfun_width_completed()
-    convert(Float64, 100*(hfun_total_completed()/hfun_total_anime()))
+    return convert(
+        Float64, 100 * (hfun_total_completed() / hfun_total_anime())
+    )
 end
 
 """
@@ -68,7 +70,7 @@ hfun_total_onhold() = 3
 Get the percentage onhold anime takes up out of total anime.
 """
 function hfun_width_onhold()
-    convert(Float64, 100*(hfun_total_onhold()/hfun_total_anime()))
+    return convert(Float64, 100 * (hfun_total_onhold() / hfun_total_anime()))
 end
 
 """
@@ -84,7 +86,7 @@ hfun_total_dropped() = 4
 Get the percentage dropped anime takes up out of total anime.
 """
 function hfun_width_dropped()
-    convert(Float64, 100*(hfun_total_dropped()/hfun_total_anime()))
+    return convert(Float64, 100 * (hfun_total_dropped() / hfun_total_anime()))
 end
 
 """
@@ -100,7 +102,9 @@ hfun_total_plantowatch() = 467
 Get the percentage plantowatch anime takes up out of total anime.
 """
 function hfun_width_plantowatch()
-    convert(Float64, 100*(hfun_total_plantowatch()/hfun_total_anime()))
+    return convert(
+        Float64, 100 * (hfun_total_plantowatch() / hfun_total_anime())
+    )
 end
 
 """

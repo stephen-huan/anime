@@ -166,8 +166,8 @@ I still lived on campus but in an "apartment"-style dorm room this time.
 I lived with [Eshan](https://esrh.me/) who I knew would be basically taking
 a gap year and staying in [Japan](https://photos.esrh.me/) for research[^8]
 for an entire year (the following fall, spring, and summer semesters). For
-this summer I applied for the President's Undergraduate Research Award or
-[PURA](https://www.urop.gatech.edu/pura-salary) funding and to my great
+this summer I applied for the President's Undergraduate Research Award
+or [PURA](https://urop.gatech.edu/pura-salary) funding and to my great
 embarrassment was actually rejected[^9]. Eshan, on the other hand, got the
 PURA award but chose be funded off [Bloch's](https://bloch.ece.gatech.edu/)
 NSF REU funding, so he turned it down anyways.

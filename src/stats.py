@@ -82,7 +82,7 @@ width(count) = convert(Float64, 100 * (count / hfun_total_anime()))
 
 Get the percentage {name} anime takes up out of total anime.
 \"\"\"
-hfun_width_{name} = width(hfun_{key}())
+hfun_width_{name}() = width(hfun_{key}())
 """
                     )
 

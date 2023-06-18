@@ -17,6 +17,13 @@ Round `value` to `digits` digits, parsing `digits` if necessary.
 parseround(value, digits) = round(value; digits=get_digits(digits))
 
 """
+    function width(count)
+
+Get the percentage a category takes up out of total anime.
+"""
+width(count) = convert(Float64, 100 * (count / hfun_total_anime()))
+
+"""
     function hfun_total_anime()
 
 Get the total anime.
@@ -35,9 +42,7 @@ hfun_total_watching() = 7
 
 Get the percentage watching anime takes up out of total anime.
 """
-function hfun_width_watching()
-    return convert(Float64, 100 * (hfun_total_watching() / hfun_total_anime()))
-end
+hfun_width_watching = width(hfun_total_watching())
 
 """
     function hfun_total_completed()
@@ -51,11 +56,7 @@ hfun_total_completed() = 241
 
 Get the percentage completed anime takes up out of total anime.
 """
-function hfun_width_completed()
-    return convert(
-        Float64, 100 * (hfun_total_completed() / hfun_total_anime())
-    )
-end
+hfun_width_completed = width(hfun_total_completed())
 
 """
     function hfun_total_onhold()
@@ -69,9 +70,7 @@ hfun_total_onhold() = 3
 
 Get the percentage onhold anime takes up out of total anime.
 """
-function hfun_width_onhold()
-    return convert(Float64, 100 * (hfun_total_onhold() / hfun_total_anime()))
-end
+hfun_width_onhold = width(hfun_total_onhold())
 
 """
     function hfun_total_dropped()
@@ -85,9 +84,7 @@ hfun_total_dropped() = 4
 
 Get the percentage dropped anime takes up out of total anime.
 """
-function hfun_width_dropped()
-    return convert(Float64, 100 * (hfun_total_dropped() / hfun_total_anime()))
-end
+hfun_width_dropped = width(hfun_total_dropped())
 
 """
     function hfun_total_plantowatch()
@@ -101,11 +98,7 @@ hfun_total_plantowatch() = 467
 
 Get the percentage plantowatch anime takes up out of total anime.
 """
-function hfun_width_plantowatch()
-    return convert(
-        Float64, 100 * (hfun_total_plantowatch() / hfun_total_anime())
-    )
-end
+hfun_width_plantowatch = width(hfun_total_plantowatch())
 
 """
     function hfun_total_episodes()

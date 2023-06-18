@@ -55,6 +55,13 @@ get_digits(args::Vector{String}) = parse(Int, args[1])
 Round `value` to `digits` digits, parsing `digits` if necessary.
 \"\"\"
 parseround(value, digits) = round(value; digits=get_digits(digits))
+
+\"\"\"
+    function width(count)
+
+Get the percentage a category takes up out of total anime.
+\"\"\"
+width(count) = convert(Float64, 100 * (count / hfun_total_anime()))
 """
         )
 
@@ -75,9 +82,7 @@ parseround(value, digits) = round(value; digits=get_digits(digits))
 
 Get the percentage {name} anime takes up out of total anime.
 \"\"\"
-function hfun_width_{name}()
-    convert(Float64, 100*(hfun_{key}()/hfun_total_anime()))
-end
+hfun_width_{name} = width(hfun_{key}())
 """
                     )
 
